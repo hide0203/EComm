@@ -4,10 +4,10 @@ export default function App(){
   const [cart, setCart] = useState([])
 
   const products = [
-    { id: 1, title: 'CUDA GPU for ML', price: 89999, desc: 'High-performance GPU for training models', img: 'https://via.placeholder.com/400x240?text=GPU' },
-    { id: 2, title: 'ML Dataset Pack', price: 1499, desc: 'Curated datasets for computer vision and NLP', img: 'https://via.placeholder.com/400x240?text=Datasets' },
-    { id: 3, title: 'Deep Learning Course', price: 4999, desc: 'Comprehensive course on neural networks', img: 'https://via.placeholder.com/400x240?text=Course' },
-    { id: 4, title: 'Research Paper Bundle', price: 999, desc: 'Seminal AI/ML papers summarized', img: 'https://via.placeholder.com/400x240?text=Papers' }
+    { id: 1, title: 'CUDA GPU for ML', price: 89999, desc: 'High-performance GPU for training models', img: 'https://www.leadtek.com/p_images/zoom/40949_1M.jpg?V=0' },
+    { id: 2, title: 'ML Dataset Pack', price: 1499, desc: 'Curated datasets for computer vision and NLP', img: 'https://media.geeksforgeeks.org/wp-content/uploads/20240326164905/Top-Machine-Learning-Dataset-(2).png' },
+    { id: 3, title: 'Deep Learning Course', price: 4999, desc: 'Comprehensive course on neural networks', img: 'https://media.geeksforgeeks.org/wp-content/uploads/20240628164046/Best-Deep-learning-courses-online-with-certicications.webp' },
+    { id: 4, title: 'Research Paper Bundle', price: 999, desc: 'Seminal AI/ML papers summarized', img: 'https://m.media-amazon.com/images/I/A1spmfFDqFL.jpg' }
   ]
 
   function addToCart(p){
