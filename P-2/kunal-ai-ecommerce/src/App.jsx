@@ -122,8 +122,7 @@ export default function App(){
           </div>
 
           <div className="mt-6 text-sm text-slate-500">
-            <p className="mb-2">This template is ready for Netlify. Customize product data, images, and integrate a payment gateway.</p>
-            <p>Tailwind CSS is included in the build steps below.</p>
+            <p className="mb-2">This is supposedly only a working model unless.</p>
           </div>
         </aside>
       </main>
